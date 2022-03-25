@@ -19,8 +19,7 @@ export class TodoListComponent implements OnInit {
   addItem() {
      this.toDos.push('0');
  }
-
-  ngOnInit() {
-  }
+ 
+  ngOnInit() {}
 
 }
