@@ -9,9 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class TodoListComponent implements OnInit {
 
   constructor() {}
-
   
-  userArrays = newArray();
+  userArrays = newArray;
 
   ngOnInit() {
   }

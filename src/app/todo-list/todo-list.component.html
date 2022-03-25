@@ -2,8 +2,8 @@
   <input [(ngModel)]="toDos[index]" placeholder="item" name="word{{index}}">
 </div>
 
-<button (click)="addItem()" type="button">Add an 
-Item</button>
+<button (click)="addItem()" type="button">
+  Add an Item</button>
 <div *ngFor="let item of toDos">
  <label>{{item}}</label>
 </div>
